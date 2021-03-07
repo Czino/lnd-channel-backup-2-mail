@@ -4,6 +4,8 @@ EMAIL="your@email.com"
 PATHTOLND="/home/lightning/.lnd/"
 PATHTOTMP="/home/lightning/tmp/"
 
+cd "$PATHTOTMP"
+
 while true; do
     inotifywait "$PATHTOLND/data/chain/bitcoin/mainnet/channel.backup"
     cp "$PATHTOLND/data/chain/bitcoin/mainnet/channel.backup" "$PATHTOTMP/channel.backup"
