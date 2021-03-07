@@ -2,7 +2,7 @@
 
 EMAIL="your@email.com"
 PATHTOLND="/home/lightning/.lnd/"
-PATHTOTMP="/home/lightning/tmp"
+PATHTOTMP="/home/lightning/tmp/"
 
 while true; do
     inotifywait "$PATHTOLND/data/chain/bitcoin/mainnet/channel.backup"
