@@ -1,6 +1,8 @@
 # lnd-channel-backup-2-mail
 This script watches the LND data folder and sends out emails with the channel backup on changes.
 
+This script is based on https://gist.github.com/alexbosworth/2c5e185aedbdac45a03655b709e255a3
+
 ## Dependencies
 
 ### Install mail
